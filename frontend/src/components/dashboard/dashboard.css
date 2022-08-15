@@ -1,0 +1,47 @@
+.input{
+    margin-top: 20px;
+    width: 30%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 2px solid #3457D5;
+
+}
+
+.btn{
+    margin-top: 20px;
+    background: #3457D5;
+    color: aliceblue;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.user-info{
+    background:#2a52be;
+    font-family: 'Aboreto', cursive;
+    padding: 5px 5px;
+    color: aliceblue;
+    
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   transform: translateX(400px);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+   
+}
+body{
+    background-color: #eebb99;
+background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+}
