@@ -151,7 +151,7 @@ app.post('/createUser',async(req,res)=>{
     }
 })
 
-*/----------------------  Mongo DB based Routes -----------------/*
+*/----------------------  Mongo DB based Routes -----------------*/
 
 app.get('/allUser',async(req,res)=>{
     const data=await User.find()
