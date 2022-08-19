@@ -196,7 +196,7 @@ app.get('/allUser',async(req,res)=>{
         }
     })
 
-    app.post('/login',async(req,res)=>{
+    app.post('/Userlogin',async(req,res)=>{
         console.log(req.body)
         const {email,password}=req.body
         const data = await User.findOne({$and:[{email:email},{password:password }]})
